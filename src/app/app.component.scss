@@ -1,0 +1,201 @@
+.wrapper {
+  //display: flex;
+  //justify-content: center;
+}
+body {
+  background-color: black;
+}
+
+.header-container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  transform-origin: top;
+  height: 30px;
+  outline: 1px solid;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+  z-index: 2;
+}
+
+button {
+  margin-left: 5px;
+}
+
+.parent {
+  outline: 2px dotted red;
+}
+
+.scale,
+.image-number {
+  line-height: 30px;
+  margin-left: 5px;
+}
+
+.topics {
+  display: flex;
+}
+
+.topic-item {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  width: 90px;
+  background-color: pink;
+}
+
+.image-wrap {
+  padding-top: 30px;
+  background-color: black;
+}
+
+.image-wrap img {
+  width: 100%;
+  height: auto;
+  //transform: scale(1.5);
+}
+
+.topic-menu-angular,
+.topic-menu-js,
+.topic-menu-js-2,
+.topic-menu-http,
+.topic-menu-code,
+.topic-menu-ts,
+.topic-menu-cicd,
+.topic-menu-oop,
+.topic-menu-node,
+.topic-menu-data,
+.topic-menu-git,
+.topic-menu-docker,
+.topic-menu-ngrx,
+.topic-menu-tests {
+  display: none;
+}
+
+.topic-name {
+  height: 30px;
+  line-height: 30px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.topic-item:hover .topic-menu-angular {
+  display: flex;
+  flex-direction: column;
+  min-width: 250px;
+}
+
+.topic-item:hover .topic-menu-js {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.topic-item:hover .topic-menu-js-2 {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.topic-item:hover .topic-menu-http {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.topic-item:hover .topic-menu-code {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.topic-item:hover .topic-menu-ts {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.topic-item:hover .topic-menu-oop {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.topic-item:hover .topic-menu-node {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.topic-item:hover .topic-menu-cicd {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.topic-item:hover .topic-menu-data {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.topic-item:hover .topic-menu-git {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.topic-item:hover .topic-menu-tests {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.topic-item:hover .topic-menu-docker {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.topic-item:hover .topic-menu-ngrx {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.topic-menu-item {
+  height: 19px;
+  background-color: lightblue;
+  line-height: 19px;
+  cursor: pointer;
+  padding-left: 5px;
+  width: 200px;
+}
+
+.topic-menu-item:hover {
+  text-decoration: underline;
+}
+
+.moveHeader {
+  top: 347px;
+}
+
+.parent {
+  display: flex;
+  width: 400px;
+}
+
+.topic-menu-js-2 {
+  /* display: none; */
+}
+
+.display {
+  display: block;
+}
